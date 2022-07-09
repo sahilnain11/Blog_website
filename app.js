@@ -7,7 +7,9 @@ const Blog = require('./models/blog');
 const app = express();
 
 // connect to mongodb & listen for requests
-const dbURI = "mongodb+srv://myboy:okletsdothis1@@cluster0.rn5ndrd.mongodb.net/?retryWrites=true&w=majority";
+// to get this code running you need to enter database password and username in the link 
+// given below is an example
+const dbURI = "mongodb+srv://<username>:<password>@cluster0.rn5ndrd.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose.connect(dbURI, { useNewUrlParser: true, useUnifiedTopology: true })
   .then(result => app.listen(3000))
