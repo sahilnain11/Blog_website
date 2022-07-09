@@ -1,0 +1,7 @@
+To get this working,download the the code and install all the dependicies .
+Along with that add your database link in the app.js(mentioned in comment where to add) to start the database and enter your username and password.
+Then add network access to your current IP address.
+
+All things should work fine after that.
+Thanks
+Sahil.
